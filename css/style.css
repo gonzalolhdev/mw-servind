@@ -1,0 +1,275 @@
+/* Generales */
+html{
+  font-size: 100%;
+}
+
+body {
+
+  font-family: 'Lato', sans-serif;
+
+}
+
+h1{
+  font-weight: bolder;
+}
+
+h2{
+  font-weight: bold;
+  color: #23c1dd;
+}
+
+/* Navbar */
+.navbar{
+  background-color: #13181f;
+  /* box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05); */
+  min-height: 3vh;
+  max-height: auto;
+}  
+
+.nav-link{ color: #f0f0f0; }
+.nav-link:hover{ color: #23c1dd; }
+
+#logo-nav{
+  width: 6em;
+}
+
+.navbar-icon a{ 
+  padding-right: 0.5rem;
+  color: #23c1dd;
+  font-size: 1.3em;
+}
+
+.navbar-toggler{
+  color: #f0f0f0;
+  font-size: 2em;
+}
+
+.navbar-toggler:focus{
+  outline: none;
+}
+
+/* Portada */
+.carousel-item{
+  /* background-image: url(Images/Hero-4-soluciones-em-y-electroinstrumentales.jpg); */
+  /* background-size: cover; */
+  /* background-position: center bottom; */
+  height: auto;  
+  width: 100%;
+  /* position: relative; */
+}
+
+.carousel-item img{
+  height: 100%;
+}
+
+.carousel-caption{
+  position: absolute; 
+  /* align-content: center;   */
+  width: 35%;
+  top: 20%; /* Cambiar bottom por top y los píxeles que necesites */
+  bottom: 50%; /* Cambiar bottom por top y los píxeles que necesites */
+  left: 3%;
+  z-index: 10;
+  text-align: left;
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  color: #f0f0f0;
+  overflow-wrap: break-word;
+}
+
+.carousel-caption .titulo-largo{
+  margin: auto;
+  margin-top: auto;
+  font-size: 3.4vw;
+}
+
+.carousel-caption .titulo{
+  margin: auto;
+  margin-top: auto;
+  font-size: 3.5vw;
+}
+
+
+/* Cuerpo */
+
+section.cuerpo{
+  
+  min-height: 100vh;
+}
+
+#nosotros{
+  background-color: #f0f0f0;
+}
+
+#nosotros h1{
+  color: #13181f;
+}
+
+#nosotros p{
+  color: #f0f0f0;
+}
+
+#servicios{
+  background-color: #13181f;
+}
+
+#servicios h1{
+  color: #f0f0f0;
+}
+
+#servicios h3{
+  text-align: center;
+  color: #f0f0f0;
+  font-size: 1.8em;
+}
+
+#servicios li{
+  color: #23c1dd;
+  font-size: 1.2em;
+}
+
+#servicios li a{
+  color: #f0f0f0;
+  font-size: 1.1em;
+}
+
+hr{ 
+  border-color: #cccccc;
+}
+
+#servicios img{
+  max-height : 100px;
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+section.cuerpo h1{
+  font-size: 2.5rem;
+  text-align: center;
+  padding-top: 1em;
+}
+
+p { font-size: 1.2em;}
+
+#contacto{
+  background-color: #f0f0f0;
+}
+
+#contacto h1{
+  color: #13181f;
+}
+
+#nosotros .card{
+  width: 18em;
+  margin: 1em auto;
+  min-width: 95%;
+  /* height: auto; */
+  border-radius: 1em;
+  background-color: #13181f;
+  /* box-shadow: 0 0px 2em 0 rgba(0,0,0,0.3); */
+  box-shadow: 0.6em 0.6em 0.35em 0 rgba(19,24,31,0.37);
+    /* transition: 2s; */
+}
+
+.card h4{
+  text-align: center;
+  color: #23c1dd;
+}
+#nosotros .card h4{
+  font-size: 2em;
+}
+#nosotros .card p{
+  font-size: 1.4em;
+}
+
+.card img{
+  margin: 2em auto;
+  height: 16em;
+  max-height: 16em;
+  max-width: 16em;
+}
+
+#nosotros{
+  position: relative;
+  background-color: #f0f0f0;
+}
+
+.bg-primary{
+  background-image: url(Images/fondo-guarda-mw-2.jpg);
+  background-size: cover;
+  background-position: bottom;
+  color: #f0f0f0;
+}
+
+.form-control{
+  width: 100%;
+  font-size:1em;
+}
+
+.form-group{
+
+  font-size: 1.4rem;
+}
+
+#contacto{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#contacto .card{
+  color: #f0f0f0;
+  margin: 1em auto;
+  height: auto;
+  border-radius: 1em;
+  background-color: #13181f;
+  box-shadow: 0.6em 0.6em 0.35em 0 rgba(19,24,31,0.37);
+}
+
+.fondo-contacto{
+  width: 80vw;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  background-color: rgba(19, 24, 31, .6);
+  opacity: 50;
+}
+
+#contacto a{
+  font-size: 3vh;
+}
+
+
+.dbox{
+  margin: 1rem 0;
+  font-size: 1.3em;
+  color: #13181f;
+  font-weight: bold;
+}
+
+.dbox .icon{
+  padding-top: 1rem;
+}
+
+.dbox a{
+  color: #10A9BE;
+  font-weight: lighter;
+}
+
+#logo-contacto img{
+  width: 70%; 
+  margin-bottom:2rem;
+}
+
+.card-flex{
+  display: flex;
+}
+
+.break-word {
+  hyphens: auto;
+}
+
+.cursor-pointer{
+  cursor: pointer;
+}
